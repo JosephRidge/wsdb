@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="icon" type="image/png" href="/img/favicon.png" />
+   
+        <link href="themes/prism.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" > 
+<link rel="stylesheet" href="/static/my.css">
+<title> WSD lISTINGS</title>
+<!-- removed styling and moved to separate ccs file -->
+</head>
+<body>
+
+  <!-- Navigation
+     ==========================================-->   
+
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom " id="my_menu" data-spy="affix" data-offset-top="197">
+  <div class="container">
+        <a class="navbar-brand "><img  src="img/new.svg" ></img></i>   </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- nav content -->
+        <div class="container">
+        <div class="collapse navbar-collapse " id="navbar1">
+        <ul class="navbar-nav navbar-dark ml-auto my_font"  >
+            <li class="nav-item active ">
+                <li class="nav-item">
+                     
+                  <a class="nav-link my_items" href="#List" id="Qgbd" onclick="test">Qualified GDB</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link my_items " href="#Avail">TVWS's  </a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link  my_items" href="#Sample">Other Shared Bands</a>
+                      </li> 
+        </ul>
+        </div>
+        </div>
+        </div>
+        
+        
+        </nav>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+<body >
+ <div id="intro"></div>
+ <div class="container">
+ <div id="backgrnd">
+        <article>
+             <h3 class="title_font" >Geolocation databases for Dynamic Spectrum Access to TV WhiteSpaces</h3>   
+                <p > This site contains the listing service for the providers of Geolocation Databases (GDBs).
+                        These providers are organisations that have been qualified by Communications Authority 
+                        of Kenya (CA) to provide geolocation services to white space devices (WSDs).
+                        A master WSD may only obtain operational parameters from a GDB that is in this list.
+                        Master WSDs that intend to operate in Kenya must download the list of qualified GDBs
+                        before initiating radio transmissions in the UHF band 470 - 694 MHz. After 
+                        downloading the list,
+                        the master WSD should contact one of the GDBs in order
+                        to obtain the operational parameters for radio transmissions in the UHF TV band.</p> 
+                    
+            <h4 class="sub_titile_font" id="List">List of Geolocation Databases qualified to operate in Kenya </h4>
+            <!-- first test  -->
+            <ol id=" providers">
+              <li><a href="">GDB Provider 1</a></li>
+              <li><a href=""> GDB Provider 2 </a></li>
+               <li><a href=""> GDB Provider 3 </a></li>
+            </ol>
+
+            
+
+            <p >
+            WSDs shall only operate in the UHF band under a lightly licensed model
+             in accordance with the Dynamic Spectrum Access framework for "Authorisation of the Use of TV Whitespaces."
+                 
+           </p>
+         
+           <p>The following organisations have been qualified by CA and 
+               are listed in accordance with the DSA framework
+                   for TVWS as permitted to operate GDBs from which 
+                   WSDs may obtain operational parameters: 
+           </p>
+           <ol>
+                <li>GDB Provider 1</li>
+                <li>GDB Provider 2</li>
+                <li>GDB Provider 3</li>
+               
+              </ol>
+           
+          <p>These GDBs will be added to the discoverable list accessible to WSDs 
+              as an xml file once they are ready to start providing 
+                  GDB services to WSDs.</p>
+          <h4 class="sub_titile_font" id="Avail">Available WSDB's discoverable to the WSD's</h4>
+              
+          <ol> 
+            <li> <a href= "https://ca.go.ke/dsa/geolocationdatabaselist.xml">Geolocation Database List(XML format)</a></li>
+            <li> <a href= "https://ca.go.ke/dsa/geolocationdatabaselist.json/">Geolocation Database List(JSON format)</a></li>
+          </ol>
+          <h4 class="sub_titile_font" id="Sample"> Sample Response</h4>
+         
+           <ol>
+              <li> <div class="btn-group"> <div class="buttony" id="myBtn">XML  List</div> </div> 
+           
+              
+ <!-- The xml -->
+ <div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <style>
+     
+            </style>
+               <div> XML list</div>
+              <textarea style="background-color: aliceblue" readonly="" >
+              <\?xml version="1.0" encoding="UTF-8"?>
+              <ws_databases xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.ca.go.ke/dsa/geolocationdatabaselist.xsd">
+              <last_update>2020-01-01T12:00:00</last_update>
+              <refresh_rate>1440</refresh_rate>
+              <db>
+              <url>https://WSdatabase-provider1.com</url>
+              <db_provider_name>Database provider 1</db_provider_name>
+              <ws_db_id>1</ws_db_id>
+              <MCWSD_support>false</MCWSD_support>
+              </db>
+              <db>
+              <url>https://WSdatabase-provider2.com</url>
+              <db_provider_name>Database provider 2</db_provider_name>
+              <ws_db_id>2</ws_db_id>
+              <MCWSD_support>false</MCWSD_support>
+              </db>
+              </ws_databases>
+          
+              </textarea>
+              
+             </div>
+
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+};
+
+span.onclick = function() {
+  modal.style.display = "none";
+};
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+</script> 
+   </li>
+
+         
+              <li> <div class="btn-group">
+               
+                <button class="buttony" id="myBtn2">JSON List</button> 
+            
+          
+
+            <div id="myModal2" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content2">
+                <span class="close2">&times;</span>
+<!-- <article style="background-color: rgb(236, 235, 235); padding: 20px; height: auto; border-radius: 12px;"> -->
+  
+      <script src="prism.js"></script>
+      <div> JSON list</div>
+      <textarea  style="background-color: aliceblue; " readonly="" >
+        {
+          "ws_databases": {
+          "last_update": "2020-01-01T12:00:00", "refresh_rate": "1440",
+          "db": [
+          {
+          "url": "https://WSdatabase-provider1.com", "db_provider_name": "Database provider 1", "ws_db_id": "1",
+          "MCWSD_support":false
+          },
+          {
+          "url": "https://WSdatabase-provider2.com", "db_provider_name": "Database provider 2", "ws_db_id": "2",
+          "MCWSD_support":false
+          }
+          ]
+          }
+          }
+          
+        </textarea>
+        
+  </div></div>
+
+  <script>
+    var modal2 = document.getElementById("myModal2");
+    var btn2 = document.getElementById("myBtn2");
+    var span2 = document.getElementsByClassName("close2")[0];
+    btn2.onclick = function() {
+      modal2.style.display = "block";
+    };
+    span2.onclick = function() {
+      modal2.style.display = "none";
+    };
+     window.onclick = function(event) {
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+    };
+  </script>
+    
+  <script>
+    $(function(){
+var n = $(".collapse");
+n.on("click", "a:not([data-toggle])", null, function () {
+       n.collapse('hide');
+   });
+});
+  </script>
+
+
+
+</body>
+</html>

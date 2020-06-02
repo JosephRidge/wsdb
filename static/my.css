@@ -1,0 +1,423 @@
+/* NAVIGATION BAR 
+==================START=================== >  */
+.affix{
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.affix + .container{
+  padding-top: 70px;
+}
+.navbar-custom{
+  top: 0px;
+}
+.navbar-custom {
+  background-color: #0047bb !important;
+  border-color: #030033 !important;
+  color: white !important;
+  position: fixed !important;
+  width: 100% !important;
+  margin-left: 0px;
+  border-radius: 1px;
+  margin-top: 0px;
+  margin-right: auto;
+
+}
+  .nav-link {
+    color: white !important;
+    float: left !important;
+    align-content: center;
+    padding-left: 10px !important;
+  }
+  .nav-pos {
+    float: right !important;
+    display: Inline-block !important;
+    padding: 10px 9px 10px 9px;
+  }
+  .nav {
+    position: fixed !important;
+    height: 60px;
+  }
+  .my_font{
+    font-size: 10.rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  .my_items{
+    padding: 14px 16px;
+  }
+  .my_items:hover{
+    /* background-color:white; */
+    border-radius:12px;
+   
+    font-size: 25vx;
+    padding-right: 5px; 
+    padding-left: 5px;
+    background-color: rgba(0, 0, 0, 0.883) !important;
+    text-decoration-style: solid;
+    opacity: 0.8;
+    transition: all 1.3s ease -1s;
+  }
+  .backgrnd {
+    padding-block-start: 107px;
+    background-color: white !important;
+    
+    }
+      .box{
+          width: 100%;
+          height: 100%;
+          padding: 10px;  
+          padding-top: 66px;
+          box-sizing: border-box;
+      }
+      img{
+        border-style: none;
+        max-width: 187px;
+        float: left;
+        line-height: 50px;
+        padding: 0px;
+        vertical-align: top;
+        display: inline-block;
+        height: auto;
+        margin-top: -9px;
+    }
+  .navbar-toggler{
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 9px 10px;
+    margin-top: -3px !important;
+    position: relative;
+ 
+}
+
+  
+/*  *** NAVIGATION BAR  
+========================END=========================== > */
+
+/*  THE BODY  
+=========================START========================= > */
+
+html {
+  
+  font-size: 1rem;
+
+line-height: 1.5;
+}
+
+/* THE IN-PAGE LINKS
+=========================start========================= >  */
+
+.link.light:active {
+  background-color: yellow;
+}
+
+/* THE IN-PAGE LINKS
+=========================end========================= >  */
+
+.my_font {
+  font-size: 1rem;
+  font-family: "Roboto-Regular", Arial, sans-serif;
+}
+/*  -------RENDERED CODE 
+ -------START----------- */
+textarea {
+  width: 80%;
+  resize: horizontal;
+  resize: both;
+  width: 548px;
+  height: 493px;
+}
+
+/* RENDERED CODE 
+ -----------END----------- */
+
+html {
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  background-color: #d3d3d3;
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 1rem ;
+  width: 100%;
+  background-color: #e6e9eed2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+p {
+
+  font-weight: 400;
+  font-size: 1rem ;
+  color: #535050;
+}
+.title_font {
+  font-size: 37vx;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  color: #575656;
+  font-weight: 200px;
+  font-family: "Roboto-Regular", Arial, sans-serif;
+}
+.sub_titile_font {
+  font-size: 25vx;
+  text-decoration-style: none;
+  text-decoration-color: currentcolor;
+  color: #575656;
+  font-family: "Roboto-Regular", Arial, sans-serif;
+}
+
+article {
+  text-align: justify;
+  max-width: 1600px;
+  font-size: 100%;
+  background-color: #ffffff;
+  padding: 0 20px;
+  padding-top: 22px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin: 0 auto;
+  margin-top: 82px;
+  
+  margin-bottom: 0px;
+  
+  overflow: hidden;
+  border-radius: 17px;
+
+  margin-top: 82px;
+margin-right: -70px;
+margin-left: -70px;
+}
+.container > .nabar-header{
+  margin-right: -15px;
+margin-left: -15px;
+}
+.container.backgrnd {
+  margin: 0;
+
+  background-color: #edeef7;
+  padding-block-start: 107px;
+  border-radius: 10px;
+}
+
+h3 {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  /* text-align: auto; */
+}
+@media screen and (max-width: 700px) {
+  h3 {
+    font-size: 700;
+  }
+  .title_font {
+    text-align: center;
+  }
+  .sub_titile_font {
+    text-align: center;
+  }
+  .backgrnd {
+    padding: 10px;
+  }
+  .button {
+    background-color: #d3d3d354;
+  }
+  img {
+    max-width: 187px;
+    
+  }
+  .container {
+    max-width: 688px;
+  }
+  .navbar-toggler {
+    float: right;
+    margin-top: -19px;
+  }
+  article{
+    margin: 0 auto;
+    margin-top: 82px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+    border-radius: 17px;
+  }
+
+}
+
+/* modal views 
+-===========================================================>  */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  right: 0;
+  top: 0;
+  width: -100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgb(227, 227, 235);
+  margin: auto;
+  padding: 20px;
+  opacity: 0.9;
+  /*  border: 1px solid rgb(189, 184, 184)' */
+  width: 43%;
+  /* overflow:auto; */
+  border-radius: 12px;
+  height: auto;
+  margin-top: 5%;
+
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 22%;
+  animation-duration: 0.4s;
+}
+@media screen and (max-width: 700px) {
+  .modal {
+    font-size: 70%;
+    float: left;
+  }
+  .modal-content {
+    width: 100%;
+    float: left;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  height: 100%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  background-color: #edeef7;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttony {
+  background-color: white;
+  color: #007bff;
+  width: 50%;
+  padding: 1px;
+  width: 100%;
+  border: transparent;
+  float: center;
+  font-weight: 200px;
+  font-family: "Roboto-Regular", Arial, sans-serif;
+}
+.buttony:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: #007bff;
+}
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  right: 0;
+  top: 0;
+  width: -100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Modal Content */
+.modal-content2 {
+  background-color: rgb(227, 227, 235);
+  margin: auto;
+  padding: 20px;
+  opacity: 0.9;
+  width: 43%;
+  border-radius: 12px;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 22%;
+
+  float: right;
+  margin-right: 40px;
+  animation-duration: 0.4s;
+}
+@media screen and (max-width: 700px) {
+  .modal2 {
+    font-size: 70%;
+    float: left;
+  }
+  .modal-content2 {
+    width: 100%;
+    float: left;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/* The Close Button */
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  height: 100%;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  background-color: #edeef7;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span> </div>
+</button> */
