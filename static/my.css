@@ -8,8 +8,20 @@
 .affix + .container{
   padding-top: 70px;
 }
+
+.nav-tems{
+  transform: scale(0.75);
+}
+.navbar-brand{
+  padding-top:0 !important;
+padding-bottom:0 !important;
+}
 .navbar-custom{
   top: 0px;
+}
+.navbar-custom .a{
+
+  background-color: #0047bb !important;
 }
 .navbar-custom {
   background-color: #0047bb !important;
@@ -21,7 +33,7 @@
   border-radius: 1px;
   margin-top: 0px;
   margin-right: auto;
-
+  height:60px;
 }
   .nav-link {
     color: white !important;
@@ -79,6 +91,7 @@
         display: inline-block;
         height: auto;
         margin-top: -9px;
+        transform: scale(0.75);
     }
   .navbar-toggler{
     font-size: 1.25rem;
@@ -91,7 +104,35 @@
     padding: 9px 10px;
     margin-top: -3px !important;
     position: relative;
- 
+  transform: scale(0.75);
+  border: 2px solid white;  
+}
+@media screen and (max-width: 768px) {
+  h3{
+      font-size:30px;
+  }
+  .title_font{
+    text-align: center;
+  }
+  .sub_titile_font{
+    text-align: center;
+  }
+  .navbar-custom{
+    height: auto;
+    /* transform: scale(0.8); */
+    width: 105px;
+    margin-left: -1px;
+    border-radius:5px;
+  }
+  .backgrnd{
+    padding: 10px;
+  }
+  .button{
+    background-color: #d3d3d354;
+  }
+  article{
+    padding-top: 90px;
+  }
 }
 
   
@@ -193,16 +234,13 @@ article {
   padding-bottom: 30px;
   padding-left: 20px;
   margin: 0 auto;
-  margin-top: 82px;
+  margin-top: 65px;
   
   margin-bottom: 0px;
   
   overflow: hidden;
   border-radius: 17px;
 
-  margin-top: 82px;
-margin-right: -70px;
-margin-left: -70px;
 }
 .container > .nabar-header{
   margin-right: -15px;
@@ -225,6 +263,7 @@ h3 {
   hyphens: auto;
   /* text-align: auto; */
 }
+
 @media screen and (max-width: 700px) {
   h3 {
     font-size: 700;
@@ -243,6 +282,8 @@ h3 {
   }
   img {
     max-width: 187px;
+    margin-left: -20px;
+    
     
   }
   .container {
