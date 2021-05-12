@@ -1,0 +1,288 @@
+<svg width="838" height="259" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#0fffff" id="canvas_background" height="261" width="840" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <defs>
+   <clipPath clipPathUnits="userSpaceOnUse" id="svg_57">
+    <rect transform="translate(0, 35659.5) translate(49420.5) translate(-7055.23, -2887.04) translate(17023, 1325.82) translate(-21777.2, -3489.01) translate(2359.95, -572.842) translate(16806.7, 57.2842) translate(63.7824, 57.2842) translate(-7334.98, -286.421) translate(-2423.73, -57.2842) translate(-416.671, -1858.18) translate(-63.1125, 2345.84) translate(2.61171, -3.63798e-12) translate(-0.00385208, -3.63798e-12) translate(-94.6687, -3.63798e-12) translate(92.0647, -3.63798e-12) translate(63.1126, -64.2696) translate(-126.225, -2410.11) translate(63.1126, -96.4045) translate(-7.27596e-12, 96.4045) translate(-31.5563, -96.4045) translate(94.6689, 32.1348) translate(-31.5563, 32.1348) translate(-31.5563, -96.4045) translate(441.788, -64.2697) translate(-536.457, 32.1348) translate(-0.1849, -3.63798e-12) translate(-94.6726, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(284.006, -3.63798e-12) translate(94.6726, -3.63798e-12) translate(-0.00385208, -3.63798e-12) translate(189.337, -3.63798e-12) translate(189.337, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(-94.6687, -3.63798e-12) translate(-94.6687, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(-189.337, -3.63798e-12) translate(-347.119, -3.63798e-12) translate(-94.6687, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(189.337, -3.63798e-12) translate(0.00385208, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(-7.27596e-12, -180.401) translate(-7.27596e-12, -546.289) translate(-7.27596e-12, -192.807) translate(-7.27596e-12, -96.4043) translate(-7.27596e-12, 96.4043) translate(-7.27596e-12, 353.482) translate(-7.27596e-12, -0.00196135) translate(-7.27596e-12, 353.482) translate(-7.27596e-12, 289.213) translate(-7.27596e-12, 289.213) translate(-7.27596e-12, -3.63798e-12) translate(-7.27596e-12, -3.63798e-12) translate(-7.27596e-12, -642.695) translate(-7.27596e-12, -96.4043) translate(-7.27596e-12, -3.63798e-12) translate(-7.27596e-12, 192.809) translate(-7.27596e-12, 192.809) translate(-7.27596e-12, -3.63798e-12) translate(-31.5563, -64.2696)" id="svg_108" height="21000" width="29700" y="0" x="0"/>
+   </clipPath>
+   <clipPath clipPathUnits="userSpaceOnUse" id="svg_106">
+    <rect id="svg_109" height="20958" width="29641" y="21" x="29"/>
+   </clipPath>
+  </defs>
+  <defs>
+   <g id="svg_110"/>
+  </defs>
+  <defs>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_105">
+    <path id="svg_111" d="m580,1141l583,-570l-583,-571l-584,571l584,570z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_104">
+    <path id="svg_112" d="m8,1128l1129,0l0,-1128l-1129,0l0,1128z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_103">
+    <path id="svg_113" d="m174,0l428,739l-428,742l1282,-742l-1282,-739zm1184,739l-1049,607l350,-607l699,0z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_102">
+    <path id="svg_114" d="m2015,739l-739,-739l-559,0l543,543l-1086,0l0,393l1086,0l-543,545l557,0l741,-742z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_101">
+    <path id="svg_115" d="m0,-2c-7,16 -16,29 -25,39l381,530c-94,256 -141,385 -141,387c0,25 13,38 40,38c9,0 21,-2 34,-5c21,4 42,12 65,25l27,-13l111,-251l280,301l64,-25l24,25c21,-10 41,-24 62,-43c-36,-69 -87,-143 -152,-222c-1,-1 -60,-68 -176,-200l180,-361c0,-27 -21,-55 -63,-84l16,-20c-10,-29 -28,-43 -55,-43c-31,0 -102,102 -215,305l-293,-457c-22,-34 -53,-51 -92,-51c-42,0 -63,17 -64,51c-7,9 -10,24 -10,44c0,9 1,19 2,30z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_100">
+    <path id="svg_116" d="m285,-33c-103,0 -174,63 -211,189c-22,72 -33,177 -33,315c0,78 14,145 41,201c34,71 87,106 158,106c53,0 88,-31 106,-94l23,-176c8,-64 28,-97 59,-98l735,706c11,11 33,17 66,17c42,0 63,-15 63,-46l0,-122c0,-36 -10,-64 -30,-84l-820,-834c-52,-53 -104,-80 -157,-80z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_99">
+    <path id="svg_117" d="m813,0c-181,0 -324,54 -430,161c-107,107 -160,250 -160,431c0,181 53,324 160,431c106,107 249,161 430,161c179,0 323,-54 432,-161c108,-107 162,-251 162,-431c0,-180 -54,-324 -162,-431c-109,-107 -253,-161 -432,-161z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_98">
+    <path id="svg_118" d="m346,457c-73,0 -137,26 -191,78c-54,51 -81,114 -81,188c0,73 27,136 81,188c54,52 118,78 191,78c73,0 134,-26 185,-79c51,-51 77,-114 77,-187c0,-75 -25,-137 -76,-188c-50,-52 -112,-78 -186,-78z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_97">
+    <path id="svg_119" d="m-4,459l1139,0l0,147l-1139,0l0,-147z"/>
+   </g>
+   <g transform="scale(0.00048828125,-0.00048828125)" id="svg_96">
+    <path id="svg_120" d="m173,740c0,163 58,303 173,419c116,115 255,173 419,173c163,0 302,-58 418,-173c116,-116 174,-256 174,-419c0,-163 -58,-303 -174,-418c-116,-116 -255,-174 -418,-174c-164,0 -303,58 -419,174c-115,115 -173,255 -173,418z"/>
+   </g>
+  </defs>
+
+  <g id="svg_230">
+   <g transform="matrix(0.0316895, 0, 0, 0.031119, -1534.27, -1008.41)" id="svg_121">
+    <g class="Master_Slide" id="svg_93">
+     <g class="Background" id="svg_95"/>
+     <g class="BackgroundObjects" id="svg_94"/>
+    </g>
+   </g>
+   <g transform="matrix(0.0316895, 0, 0, 0.031119, -1534.27, -1008.41)" id="svg_122" class="SlideGroup">
+    <g id="svg_123">
+     <g id="svg_55">
+      <g clip-path="url(#svg_57)" class="Slide" id="svg_56">
+       <g id="svg_124" class="Page">
+        <g id="svg_125" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_92">
+          <rect id="svg_126" height="8637" width="26544" y="32180.017875" x="48321.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_127" d="m74864.03125,40816.011719l-26542.964844,0l0,-8635.992188l26542.964844,0l0,8635.992188z" fill="rgb(0,71,187)"/>
+         </g>
+        </g>
+        <g id="svg_128" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_91">
+          <rect id="svg_129" height="1238" width="1109" y="35178.017875" x="55246.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_130" d="m55246.066406,35801.011719l0,-5c0,-339 256,-618 624,-618c226,0 364,75 477,187l-171,192c-93,-85 -188,-135 -308,-135c-201,0 -346,167 -346,372l0,2c0,205 140,377 346,377c138,0 220,-55 316,-140l170,167c-123,133 -263,215 -494,215c-353,0 -614,-272 -614,-614z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_131" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_90">
+          <rect id="svg_132" height="1238" width="1280" y="35178.017875" x="56567.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_133" d="m57567.066406,35801.011719l0,-5c0,-204 -150,-374 -363,-374c-213,0 -361,167 -361,372l0,2c0,205 153,377 363,377c213,0 361,-167 361,-372zm-1000,0l0,-5c0,-339 271,-618 639,-618c371,0 640,277 640,616l0,2c0,340 -271,619 -642,619c-371,0 -637,-277 -637,-614z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_134" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_89">
+          <rect id="svg_135" height="1198" width="1202" y="35200.017875" x="58190.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_136" d="m58190.066406,35200.011719l286,0l316,504l316,-504l283,0l0,1197l-261,0l0,-783l-338,511l-8,0l-333,-506l0,778l-261,0l0,-1197z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_137" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_88">
+          <rect id="svg_138" height="1198" width="1202" y="35200.017875" x="59803.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_139" d="m59803.066406,35200.011719l283,0l316,504l316,-504l286,0l0,1197l-263,0l0,-783l-339,511l-7,0l-334,-506l0,778l-258,0l0,-1197z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_140" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_87">
+          <rect id="svg_141" height="1215" width="1049" y="35200.017875" x="61398.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_142" d="m61398.066406,35881.011719l0,-681l263,0l0,676c0,194 98,294 261,294c163,0 261,-97 261,-287l0,-683l263,0l0,673c0,364 -203,541 -527,541c-323,0 -521,-179 -521,-533z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_143" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_86">
+          <rect id="svg_144" height="1198" width="1071" y="35200.017875" x="62840.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_145" d="m62840.066406,35200.011719l243,0l567,738l0,-738l260,0l0,1197l-225,0l-584,-763l0,763l-261,0l0,-1197z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_146" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_85">
+          <rect id="svg_147" height="1198" width="269" y="35200.017875" x="64322.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_148" d="m64322.066406,35200.011719l0,1197l268,0l0,-1197l-268,0z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_149" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_84">
+          <rect id="svg_150" height="1238" width="1112" y="35178.017875" x="64935.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_151" d="m64935.0625,35801.011719l0,-5c0,-339 260.992188,-618 628.984375,-618c225.992188,0 360.992188,75 471.992188,187l-168,192c-91,-85 -185.992188,-135 -305.992188,-135c-200.984375,0 -348.992188,167 -348.992188,372l0,2c0,205 143.007813,377 348.992188,377c137.992188,0 219.992188,-55 315.992188,-140l168,167c-123,133 -261,215 -491.992188,215c-352.992188,0 -618.984375,-272 -618.984375,-614z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_152" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_83">
+          <rect id="svg_153" height="1203" width="1278" y="35191.017875" x="66253.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_154" d="m67049.039063,35892.011719l-158,-387l-161,387l319,0zm-279,-701l244,0l516,1202l-276,0l-110,-267l-511,0l-108,267l-271,0l516,-1202z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_155" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_82">
+          <rect id="svg_156" height="1198" width="997" y="35200.017875" x="67573.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_157" d="m67937.039063,35442.011719l-364,0l0,-242l995,0l0,242l-363,0l0,955l-268,0l0,-955z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_158" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_81">
+          <rect id="svg_159" height="1198" width="267" y="35200.017875" x="68864.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_160" d="m68864.039063,35200.011719l0,1197l266,0l0,-1197l-266,0z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_161" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_80">
+          <rect id="svg_162" height="1238" width="1280" y="35178.017875" x="69479.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_163" d="m70479.039063,35801.011719l0,-5c0,-204 -150,-374 -363,-374c-213,0 -361,167 -361,372l0,2c0,205 150,377 363,377c213,0 361,-167 361,-372zm-1000,0l0,-5c0,-339 271,-618 639,-618c371,0 640,277 640,616l0,2c0,340 -274,619 -642,619c-371,0 -637,-277 -637,-614z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_164" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_79">
+          <rect id="svg_165" height="1198" width="1069" y="35200.017875" x="71101.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_166" d="m71101.039063,35200.011719l243,0l564,738l0,-738l260.992188,0l0,1197l-225.992188,0l-581,-763l0,763l-261,0l0,-1197z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_167" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_78">
+          <rect id="svg_168" height="1230" width="955" y="35182.017875" x="72489.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_169" d="m72489.03125,36222.011719l155,-187c111,90 224,144 361,144c108,0 173,-42 173,-112l0,-2c0,-68 -40,-100 -240,-152c-246,-63 -401,-128 -401,-364l0,-5c0,-215 178,-362 423,-362c173,0 324,55 444,155l-135,197c-108,-73 -211,-118 -314,-118c-100,0 -153,48 -153,105l0,3c0,79 51,104 259,157c243,62 381,149 381,359l0,2c0,237 -183,369 -442,369c-180,0 -366,-62 -511,-189z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_170" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_77">
+          <rect id="svg_171" height="1063" width="1127" y="37027.017875" x="55246.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_172" d="m55945.066406,37645.011719l-140,-341l-143,341l283,0zm-245,-618l213,0l459,1062l-246,0l-98,-239l-449,0l-95,239l-238,0l454,-1062z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_173" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_76">
+          <rect id="svg_174" height="1073" width="926" y="37034.017875" x="56470.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_175" d="m56470.066406,37637.011719l0,-603l233,0l0,598c0,173 85,260 228,260c143,0 228,-85 228,-252l0,-606l236,0l0,596c0,319 -183,476 -466,476c-286,0 -459,-157 -459,-469z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_176" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_75">
+          <rect id="svg_177" height="1057" width="881" y="37034.017875" x="57556.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_178" d="m57879.066406,37246.011719l-323,0l0,-212l880,0l0,212l-323,0l0,843l-234,0l0,-843z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_179" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_74">
+          <rect id="svg_180" height="1057" width="901" y="37034.017875" x="58603.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_181" d="m58603.066406,37034.011719l236,0l0,416l431,0l0,-416l233,0l0,1055l-233,0l0,-424l-431,0l0,424l-236,0l0,-1055z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_182" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_73">
+          <rect id="svg_183" height="1093" width="1129" y="37016.017875" x="59722.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_184" d="m60607.066406,37565.011719l0,-3c0,-182 -135,-334 -321,-334c-188,0 -318,147 -318,332l0,2c0,182 133,332 321,332c188,0 318,-147 318,-329zm-885,0l0,-3c0,-302 238,-546 567,-546c325,0 561,242 561,544l0,2c0,299 -238,546 -564,546c-328,0 -564,-244 -564,-543z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_185" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_72">
+          <rect id="svg_186" height="1057" width="920" y="37034.017875" x="61065.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_187" d="m61534.066406,37545.011719c113,0 180,-60 180,-149l0,-3c0,-100 -72,-150 -185,-150l-233,0l0,302l238,0zm-469,-511l484,0c135,0 241,37 311,107c57,58 90,140 90,240l0,2c0,172 -93,277 -226,327l259,379l-274,0l-228,-339l-185,0l0,339l-231,0l0,-1055z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_188" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_71">
+          <rect id="svg_189" height="1057" width="237" y="37034.017875" x="62181.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_190" d="m62181.066406,37034.011719l0,1055l236,0l0,-1055l-236,0z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_191" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_70">
+          <rect id="svg_192" height="1057" width="881" y="37034.017875" x="62586.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_193" d="m62909.066406,37246.011719l-323,0l0,-212l880,0l0,212l-323,0l0,843l-234,0l0,-843z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_194" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_69">
+          <rect id="svg_195" height="1057" width="1051" y="37034.017875" x="63585.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_196" d="m63996.066406,37672.011719l-411,-638l273,0l256,421l256,-421l265,0l-408,633l0,422l-231,0l0,-417z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_197" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="svg_68">
+          <rect id="svg_198" height="1093" width="1133" y="37016.017875" x="65243.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_199" d="m66129.039063,37565.011719l0,-3c0,-182 -133,-334 -321,-334c-184.992188,0 -317.984375,147 -317.984375,332l0,2c0,182 134.992188,332 322.984375,332c186,0 316,-147 316,-329zm-884.984375,0l0,-3c0,-302 241,-546 568.984375,-546c326,0 562,242 562,544l0,2c0,299 -239,546 -567,546c-325.984375,0 -563.984375,-244 -563.984375,-543z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_200" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_67">
+          <rect id="svg_201" height="1057" width="811" y="37034.017875" x="66587.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_202" d="m66587.039063,37034.011719l810,0l0,209l-577,0l0,225l509,0l0,212l-509,0l0,409l-233,0l0,-1055z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_203" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_66">
+          <rect id="svg_204" height="1057" width="966" y="37034.017875" x="68097.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_205" d="m68097.039063,37034.011719l236,0l0,461l428,-461l281,0l-431,446l451,609l-278,0l-328,-452l-123,128l0,324l-236,0l0,-1055z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_206" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_65">
+          <rect id="svg_207" height="1057" width="811" y="37034.017875" x="69216.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_208" d="m69216.039063,37034.011719l800,0l0,204l-567,0l0,215l499,0l0,207l-499,0l0,224l577,0l0,205l-810,0l0,-1055z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_209" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_64">
+          <rect id="svg_210" height="1057" width="947" y="37034.017875" x="70257.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_211" d="m70257.039063,37034.011719l216,0l498,648l0,-648l231,0l0,1055l-198,0l-516,-671l0,671l-231,0l0,-1055z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_212" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_63">
+          <rect id="svg_213" height="1057" width="1051" y="37034.017875" x="71354.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_214" d="m71760.039063,37672.011719l-406,-638l271,0l253,421l257.992188,-421l268,0l-411,633l0,422l-232.992188,0l0,-417z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_215" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_62">
+          <rect id="svg_216" height="1063" width="1127" y="37027.017875" x="72316.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_217" d="m73015.03125,37645.011719l-142,-341l-138,341l280,0zm-245,-618l215,0l457,1062l-244,0l-100,-239l-449,0l-97,239l-236,0l454,-1062z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_218" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_61">
+          <rect id="svg_219" height="3189" width="3735" y="36949.017875" x="50005.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_220" d="m50005.066406,40137.011719l1319,-242l747,-1229l684,967l983,-182l-1670,-2501l-2063,3187z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_221" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_60">
+          <rect id="svg_222" height="3158" width="3704" y="33221.017875" x="50018.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_223" d="m53721.066406,33899.011719l-983,-179l-657,937l-742,-1197l-1321,-238.996094l2051,3156.996094l1652,-2479z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_224" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_59">
+          <rect id="svg_225" height="5305" width="2643" y="34028.017875" x="49191.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_226" d="m49191.066406,34028.011719l0,1631l1091,1010l-1091,990l0,1673l2642,-2673l-2642,-2631z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_227" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="svg_58">
+          <rect id="svg_228" height="3972" width="1949" y="34674.017875" x="52294.058467" fill="none" class="BoundingBox"/>
+          <path id="svg_229" d="m54242.066406,38645.011719l0,-1224l-677,-764l677,-743l0,-1239l-1948,1987l1948,1983z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <path id="svg_233" d="m7.999149,78.499748" opacity="0.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  </g>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_232" y="76.5" x="1" stroke-width="0" stroke="#000" fill="#000000"/>
+ </g>
+</svg>
