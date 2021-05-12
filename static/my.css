@@ -1,6 +1,7 @@
 header {
   display: table-cell;
   vertical-align: middle;
+
 }
 .main-menu {
   display: table;
@@ -34,7 +35,7 @@ header {
 .navbar-custom {
   background-color: #0047bb !important;
   border-color: #030033 !important;
-  color: yellow !important;
+  
   position: fixed !important;
   width: 101% !important;
   margin-left: -1px;
@@ -54,6 +55,7 @@ header {
   padding: 10px 9px 10px 9px;
 }
 .nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   position: fixed !important;
   height: 60px;
 }
@@ -178,7 +180,34 @@ margin-top:-1%;
   .container{
   margin-top:-1%;
   }
-  
+  h3 {
+    font-size: 30px;
+  }
+  .title_font {
+    text-align: center;
+  }
+  .sub_titile_font {
+    text-align: center;
+  }
+  .navbar-custom {
+    height: auto;
+    /* transform: scale(0.8); */
+    width: 101%; /* new !*/
+    margin-left: -1px; /* new ! */
+  }
+  .navbar-brand {
+    margin-left: -6px;
+  }
+  .backgrnd {
+    padding: 10px;
+  }
+  .button {
+    background-color: #d3d3d354;
+  }
+  article {
+    padding-top: 90px;
+  }
+
     img {
       padding-top: 00%;
       padding-bottom: 0%;
