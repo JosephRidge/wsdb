@@ -1,89 +1,272 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/8.6.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/8.6.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-firestore.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-functions.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-storage.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-analytics.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-remote-config.js"></script>
-    <script defer src="/__/firebase/8.6.1/firebase-performance.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+<link rel="icon" type="image/png" href="/img/favicon.png" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" > 
+<link href="static/prism.css" rel="stylesheet" />
+<link rel="stylesheet" href="/static/my.css">
+<title> WSD LISTINGS</title>
+<!-- removed styling and moved to separate ccs file -->
+</head>
+<body>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+  <!-- Navigation
+     ==========================================-->   
+     <main>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom " id="my_menu" data-spy="affix" data-offset-top="197">
+ <div class="container">
+<div class="main-menu">
+  <a class="navbar-brand ">
+          <!-- <img  src="img/new.svg" ></img> -->
+        <!-- </i>  -->
+        <img src="/img/new.svg" loading="auto"  alt="Communications Authority of Kenya" width="215" height="58">
+        </a>
+</div> 
+        
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- nav content -->
+        
+        <div class="collapse navbar-collapse " id="navbar1">
+        <ul class="navbar-nav navbar-dark ml-auto my_font"  >
+            <li class="nav-item active " style="border-top: 1px solid  #d3d3d354">
+                <li class="nav-item">
+                     
+                  <a class="nav-link my_items" href="#List" id="Qgbd" onclick="test">Qualified GDB</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link my_items " href="#Avail">TV White Spaces  </a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link  my_items" href="#Sample">Other Shared Bands</a>
+                      </li> 
+        </ul>
+        </div>
+        </div>
+        
+        
+        </nav></header>
+
+ <div id="intro"></div>
+ <div class="container">
+ <div id="backgrnd">
+        <article>
+             <h3 class="title_font" >Geolocation Databases for Dynamic Spectrum Access to TV White Spaces</h3>   
+                <p > This site contains the listing service for the providers of Geolocation Databases (GDBs).
+                        These providers are organisations that have been qualified by Communications Authority 
+                        of Kenya (CA) to provide geolocation services to white space devices (WSDs).
+                        A master WSD may only obtain operational parameters from a GDB that is in this list.
+                        Master WSDs that intend to operate in Kenya must download the list of qualified GDBs
+                        before initiating radio transmissions in the UHF band 470 - 694 MHz. After 
+                        downloading the list,
+                        the master WSD should contact one of the GDBs in order
+                        to obtain the operational parameters for radio transmissions in the UHF TV band.</p> 
+                    
+            <h4 class="sub_titile_font" id="List">List of Geolocation Databases qualified to operate in Kenya </h4>
+            <!-- first test  -->
+            <ol id=" providers">
+              <li><a href=""> Geolocation Database 1</a></li>
+              <li><a href=""> Geolocation Database 2 </a></li>
+              <li><a href=""> Geolocation Database 3 </a></li>
+              <li><a href=""> Geolocation Database 4 </a></li>
+              <li><a href=""> Geolocation Database 5 </a></li>
+               
+            </ol>
+
+            
+
+            <p >
+            WSDs shall only operate in the UHF band under a lightly licensed model
+             in accordance with the Dynamic Spectrum Access framework for "Authorisation of the Use of TV White Spaces."
+                 
+           </p>
+         
+           <p>The following organisations have been qualified by CA and 
+               are listed in accordance with the DSA framework
+                   for TVWS as permitted to operate GDBs from which 
+                   WSDs may obtain operational parameters: 
+           </p>
+           <ol>
+                <li> GDB Provider 1 </li>
+                <li> GDB Provider 2 </li>
+                <li> GDB Provider 3 </li>
+                <li> GDB Provider 4 </li>
+                <li> GDB Provider 5 </li>
+               
+              </ol>
+           
+          <p>These GDBs will be added to the discoverable list accessible to WSDs 
+              as an xml file once they are ready to start providing 
+                  GDB services to WSDs.</p>
+          <h4 class="sub_titile_font" id="Avail">Available GDB's discoverable to the WSD's</h4>
+              
+          <ol> 
+            <li> <a href= "https://ca.go.ke/dsa/geolocationdatabaselist.xml">Geolocation Database List(XML format)</a></li>
+            <li> <a href= "https://ca.go.ke/dsa/geolocationdatabaselist.json/">Geolocation Database List(JSON format)</a></li>
+          </ol>
+           <section></section>   <h4 class="sub_titile_font" id="Sample"> Sample Response</h4>
+         
+           <ol>
+              <li> <div class="btn-group"> <div class="buttony" id="myBtn">XML  List</div> </div> 
+          
+ <!-- The xml -->
+ <div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <style>
+     
+            </style>
+               <div> XML list</div>
+              <textarea style="background-color: aliceblue" readonly="" >
+              <\?xml version="1.0" encoding="UTF-8"?>
+              <ws_databases xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.ca.go.ke/dsa/geolocationdatabaselist.xsd">
+              <last_update>2020-01-01T12:00:00</last_update>
+              <refresh_rate>1440</refresh_rate>
+              <db>
+              <url>https://WSdatabase-provider1.com</url>
+              <db_provider_name>Database provider 1</db_provider_name>
+              <ws_db_id>1</ws_db_id>
+              </db>
+              <db>
+              <url>https://WSdatabase-provider2.com</url>
+              <db_provider_name>Database provider 2</db_provider_name>
+              <ws_db_id>2</ws_db_id>
+              </db>
+              </ws_databases>
+          
+              </textarea>
+              
+             </div>
+
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+};
+
+span.onclick = function() {
+  modal.style.display = "none";
+};
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+</script> 
+   </li>
+
+         
+              <li> <div class="btn-group">
+               
+                <button class="buttony" id="myBtn2">JSON List</button> 
+            
+          
+
+            <div id="myModal2" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content2 ">
+                <span class="close2">&times;</span>
+<!-- <article style="background-color: rgb(236, 235, 235); padding: 20px; height: auto; border-radius: 12px;"> -->
+  
+  <div> JSON list</div>
+  <textarea  style="background-color: aliceblue; " readonly="" >
+    <span style="color:brown">&lt;from</span> 
+      {
+        "ws_databases": {
+          "last_update": "2020-01-01T12:00:00", "refresh_rate": "1440",
+          "db": [
+          {
+            "url": "https://WSdatabase-provider1.com", "db_provider_name": "Database provider 1", "ws_db_id": "1",
+          },
+          {
+            "url": "https://WSdatabase-provider2.com", "db_provider_name": "Database provider 2", "ws_db_id": "2",
+          }
+          ]
         }
-      });
-    </script>
-  </body>
+      }
+      
+    </textarea>
+  <div style="background-color: black;">
+<code >
+  
+        {<br>
+          "ws_databases": {
+            <br>"last_update": "2020-01-01T12:00:00", "refresh_rate": "1440",
+            <br>   "db": [
+            <br>  {
+              <br>   "url": "https://WSdatabase-provider1.com", "db_provider_name": "Database provider 1", "ws_db_id": "1",
+              <br>  },
+              <br>   {
+                <br>    "url": "https://WSdatabase-provider2.com", "db_provider_name": "Database provider 2", "ws_db_id": "2",
+                <br>   }
+            ]
+          }
+        }
+     
+ </code></div>
+    
+
+  </div></main></div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="prism.js"></script>
+  
+  <script>
+    var modal2 = document.getElementById("myModal2");
+    var btn2 = document.getElementById("myBtn2");
+    var span2 = document.getElementsByClassName("close2")[0];
+    btn2.onclick = function() {
+      modal2.style.display = "block";
+    };
+    span2.onclick = function() {
+      modal2.style.display = "none";
+    };
+     window.onclick = function(event) {
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+    };
+  </script>
+    
+  <script>
+    $(function(){
+var n = $(".collapse");
+n.on("click", "a:not([data-toggle])", null, function () {
+       n.collapse('hide');
+   });
+});
+  </script>
+
+</section>
+
+<!-- Firebase -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
 </html>

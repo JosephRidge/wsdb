@@ -3,10 +3,10 @@
       "last_update": "2020-01-01T12:00:00", "refresh_rate": "1440",
       "db": [
       {
-        "url": "https://WSdatabase-provider1.com", "db_provider_name": "Database provider 1", "ws_db_id": "1",
+        "url": "https://WSdatabase-provider1.com", "db_provider_name": "Database provider 1", "ws_db_id": "1"
       },
       {
-        "url": "https://WSdatabase-provider2.com", "db_provider_name": "Database provider 2", "ws_db_id": "2",
+        "url": "https://WSdatabase-provider2.com", "db_provider_name": "Database provider 2", "ws_db_id": "2"
       }
       ]
     }
