@@ -26,7 +26,7 @@
   <a class="navbar-brand ">
           <!-- <img  src="img/new.svg" ></img> -->
         <!-- </i>  -->
-        <img src="img/new.svg" loading="lazy"  alt="Communications Authority of Kenya" width="215" height="58">
+        <img src="img/new.svg" loading="auto"  alt="Communications Authority of Kenya" width="215" height="58">
         </a>
 </div> 
         
@@ -113,7 +113,7 @@
           <ol> 
             <li> <a href= "https://ca.go.ke/dsa/geolocationdatabaselist.xml">Geolocation Database List(XML format)</a></li>
             <li> <a href= "https://ca.go.ke/dsa/geolocationdatabaselist.json/">Geolocation Database List(JSON format)</a></li>
-          </ol></main>
+          </ol>
            <section></section>   <h4 class="sub_titile_font" id="Sample"> Sample Response</h4>
          
            <ol>
@@ -138,13 +138,11 @@
               <url>https://WSdatabase-provider1.com</url>
               <db_provider_name>Database provider 1</db_provider_name>
               <ws_db_id>1</ws_db_id>
-              <MCWSD_support>false</MCWSD_support>
               </db>
               <db>
               <url>https://WSdatabase-provider2.com</url>
               <db_provider_name>Database provider 2</db_provider_name>
               <ws_db_id>2</ws_db_id>
-              <MCWSD_support>false</MCWSD_support>
               </db>
               </ws_databases>
           
@@ -183,32 +181,49 @@ window.onclick = function(event) {
             <div id="myModal2" class="modal">
 
               <!-- Modal content -->
-              <div class="modal-content2">
+              <div class="modal-content2 ">
                 <span class="close2">&times;</span>
 <!-- <article style="background-color: rgb(236, 235, 235); padding: 20px; height: auto; border-radius: 12px;"> -->
   
   <div> JSON list</div>
   <textarea  style="background-color: aliceblue; " readonly="" >
+    <span style="color:brown">&lt;from</span> 
       {
         "ws_databases": {
           "last_update": "2020-01-01T12:00:00", "refresh_rate": "1440",
           "db": [
           {
             "url": "https://WSdatabase-provider1.com", "db_provider_name": "Database provider 1", "ws_db_id": "1",
-            "MCWSD_support":false
           },
           {
             "url": "https://WSdatabase-provider2.com", "db_provider_name": "Database provider 2", "ws_db_id": "2",
-            "MCWSD_support":false
           }
           ]
         }
       }
       
     </textarea>
+  <div style="background-color: black;">
+<code >
   
+        {<br>
+          "ws_databases": {
+            <br>"last_update": "2020-01-01T12:00:00", "refresh_rate": "1440",
+            <br>   "db": [
+            <br>  {
+              <br>   "url": "https://WSdatabase-provider1.com", "db_provider_name": "Database provider 1", "ws_db_id": "1",
+              <br>  },
+              <br>   {
+                <br>    "url": "https://WSdatabase-provider2.com", "db_provider_name": "Database provider 2", "ws_db_id": "2",
+                <br>   }
+            ]
+          }
+        }
+     
+ </code></div>
+    
 
-  </div></div>
+  </div></main></div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -243,5 +258,15 @@ n.on("click", "a:not([data-toggle])", null, function () {
 
 </section>
 
+<!-- Firebase -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 </body>
 </html>

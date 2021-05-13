@@ -115,7 +115,7 @@ img {
   height: auto;
   /* margin-top: -9px; */
   transform: scale(0.75);
-  margin-left: 40%;   /* new ! */
+  margin-left: 0%;   /* new ! */
 }
 .navbar-toggler {
   font-size: 1.25rem;
